@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beachtour</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" class="href">
+    <!-- --------Adding map------------ -->
+</head>
+<body>
+
+    <!-- ----Creating a navbar---------- -->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="Images/img15.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        IndiaTour
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " href="index.html">Home</a>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Destinations
+            </a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item text-muted " href="rajasthan.html">Rajasthan</a></li>
+              <li><a class="dropdown-item  text-muted" href="himachal.html">Himachal Pardesh</a></li>
+            </ul>
+          </li>
+>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Hotels
+            </a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item text-muted " href="agrahotel.html">Agra Hotels</a></li>
+              <li><a class="dropdown-item  text-muted" href="manalihotel.html">Manali Hotels</a></li>
+           
+            </ul>
+          </li>
+
+        </div>
+        <div class="navbar-nav ms-auto">
+          <% if(!currentUser) {%>
+          <a class="nav-link" href="wedding.html"> <i class="fa-solid fa-location-dot"></i> Destination Wedding</a>
+          <a class="nav-link" href="medical.html"> <i class="fa-solid fa-heart-pulse"></i> Medical Tourism</a>
+          <%} else {%>
+          <a class="nav-link" href="contact.html">Contact</a>
+          <%} %>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ---------------------Body------------------- -->
+  <div class="front">
+  <h1> <a style="color: red; ">Beaches </a> in India </h1>
+ <p style="text-align: center;">With over 7500 km stretch of coastline in its geographical treasure, India has always been an alluring destination when it comes to refreshing holidays away from the hustle and bustle of metropolitan life. Especially if you love to throng the southern region of India, which is blessed with beauty of sea, sun and sand in its full bloom, then it is obvious to enjoy incredible holidays in India. Giving a tough competition to world’s several seaside destinations, beaches in India are not just full of scenic allure but have all the ingredients from solitude to beach-party culture and from thrilling activities to world-class hotels and resorts. </p>
+</div>
+  <!-- ----------categories----------------------------- -->
+
+
+<!-- ------------------trending Destination-------------------------- -->
+<section id="parks" style="background-color:antiquewhite;margin: 5px;">
+<h2>List of popular beaches in India</h2>
+<div class="row row-cols-1 row-cols-md-5 g-4">
+<div class="col">
+<div class="card">
+  <img src="Images/img101.jpg" class="card-img-top" alt="...">
+
+  <div class="card-body">
+    <h5 class="card-title">Baga Beach Goa </h5>
+  </div>
+</div>
+</div>
+<div class="col">
+<div class="card">
+  <img src="Images/img102.jpg" class="card-img-top" alt="...">
+
+  <div class="card-body">
+    <h5 class="card-title">Anjuna Beach Goa</h5>
+  </div>
+</div>
+</div>
+
+<div class="col">
+  <div class="card">
+    <img src="Images/img103.jpg" class="card-img-top" alt="...">
+  
+    <div class="card-body">
+      <h5 class="card-title">Kovalam Beach Kerala</h5>
+      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+    <img src="Images/img104.jpg" class="card-img-top" alt="...">
+  
+    <div class="card-body">
+      <h5 class="card-title">Varkala Beach Kerala</h5>
+      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    </div>
+  </div>
+  </div>
+
+    <div class="col">
+    <div class="card">
+      <img src="Images/img106.jpg" class="card-img-top" alt="...">
+    
+      <div class="card-body">
+        <h5 class="card-title">Beaches of Daman & Diu</h5>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </div>
+    </div>
+</div>
+<br><br>
+</section>
+<!-- -------------- all direction Map-------------------------------------------------------- -->
+
+<!-- -------------------------FAQ-------------------------------------------------------- -->
+
+
+
+<!-- ---------------Footer--------------------------------------- -->
+
+<footer class="footer bg-dark py-3 mt-auto">
+  <div class="container">
+      <div class="content-wrap">
+        <h7>
+           Contact
+        </h7>
+        <br>
+        <h7>
+          <i class="fa-solid fa-location-dot"></i>  New Delhi, India
+       </h7><br>
+       <h7>
+        <i class="fa-solid fa-phone"></i> 1234567890
+     </h7>
+        <ul class="contact-list">
+            <li><a href="mailto:email@example.com"><i class="fa-regular fa-envelope"></i>info@indiatour.com</a></li>
+            <li><a href="https://www.twitter.com" target="_blank"> <i class="fa-brands fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://www.linkedin.com"target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://www.facebook.com" target="_blank" class=""><i class="fa-brands fa-facebook"></i>
+              Facebook</a></li>
+            <li><a href="https://www.instagram.com" target="_blank" class=""> <i class="fa-brands fa-instagram"></i> Instagram</a></li>
+        </ul>
+        <span class="text-muted">&copy; India tour 2022</span>
+      </div>
+    </div>
+</footer> 
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>

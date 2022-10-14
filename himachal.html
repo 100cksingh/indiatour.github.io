@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>himachal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" class="href">
+    <link rel="stylesheet" href="css/wedding.css">
+    <!-- --------Adding map------------ -->
+</head>
+<body>
+
+    <!-- ----Creating a navbar---------- -->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="Images/img15.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        IndiaTour
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " href="index.html">Home</a>
+          <!-- <a class="nav-link" href="/campgrounds">Destinations</a>  -->
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Destinations
+            </a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item text-muted " href="rajasthan.html">Rajasthan</a></li>
+              <li><a class="dropdown-item  text-muted" href="himachal.html">Himachal Pardesh</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Hotels
+            </a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item text-muted " href="agrahotel.html">Agra Hotels</a></li>
+              <li><a class="dropdown-item  text-muted" href="manalihotel.html">Manali Hotels</a></li>
+            </ul>
+          </li>
+
+        </div>
+        <div class="navbar-nav ms-auto">
+          <% if(!currentUser) {%>
+          <a class="nav-link" href="wedding.html"> <i class="fa-solid fa-location-dot"></i> Destination Wedding</a>
+          <a class="nav-link" href="medical.html"> <i class="fa-solid fa-heart-pulse"></i> Medical Tourism</a>
+          <%} else {%>
+          <a class="nav-link" href="contact.html">Contact</a>
+          <%} %>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- ------------------------------Body--------------------------------------------------------------- -->
+
+
+<div class="card mb-3" style="max-width: 1200px;">
+    <div class="row g-0" >
+      <div class="col-md-4" >
+        <img src="Images/img56.jpg" class="img-fluid rounded-start" alt="..." >
+      </div>
+      <div class="col-md-4">
+        <div class="card-body">
+          <h5 class="card-title">Himachal Pardesh Tour</h5>
+          <p class="card-text" style="text-align: left; padding:5px 5px 5px 30px">
+       
+            Tourism in Himachal Pradesh is a major contributor to the state's economy and growth.
+            The Himalayas attracts tourists from all over the world. Hill stations like Shimla, Manali, Dharamshala, Dalhousie, Chamba, Khajjiar, Kullu and Kasauli are popular destinations for both domestic and foreign tourists
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h5>About Himachal Pradesh tourism </h5>
+  <p>Himachal is also known for its adventure tourism activities like ice skating in Shimla, paragliding in Bir Billing and Solang Valley, rafting in Kullu, skiing in Manali, boating in Bilaspur, fishing in Tirthan Valley, trekking and horse riding in different parts of the state.[86] Shimla, the state's capital, is home to Asia's only natural ice-skating rink.</p>
+
+    <div class="d-grid gap-2 col-2 mx-auto">
+        <button class="btn btn-primary  " type="button" ><a href="https://goo.gl/maps/AWXihdTDyTC8oXWv8" class="text-white">
+   <i class="fa-solid fa-location-dot"></i> See Google Map</a></button>
+        
+      </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 5px 0px 10px 0px;">
+    <div class="col">
+      <div class="card h-100">
+        <img src="Images/img59.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Shimla</h5>
+          <p class="card-text">Shimla was built on top of seven hills: Inverarm Hill, Observatory Hill, Prospect Hill, Summer Hill, Bantony Hill, Elysium Hill and Jakhu Hill. The highest point in Shimla is the Jakhu hill, which is at a height of 2,454 metres (8,051 ft). In recent times the city has spread past the initial seven hills.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Images/img57.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Manali </h5>
+          <p class="card-text"> Manali has witnessed a flurry of activity related to hydroelectric power and tourism. Unplanned and rampant construction has led to severe depletion of forests and pollution of river bodies, along with garbage being disposed of on the side of the mountains.</p>
+        </div>
+      
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="Images/img58.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aventure</h5>
+          <p class="card-text"> Rafting is one of the most popular adventure activities in Himachal that has been attracting thrill-seekers for decades.  To experience this, you need to visit the state during the summer months when the glaciers melt and the water travels to merge with the river.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- ---------------Footer--------------------------------------- -->
+
+<footer class="footer bg-dark py-3 mt-auto">
+    <div class="container">
+        <div class="content-wrap">
+          <h7>
+             Contact
+          </h7>
+          <br>
+          <h7>
+            <i class="fa-solid fa-location-dot"></i>  New Delhi, India
+         </h7><br>
+         <h7>
+          <i class="fa-solid fa-phone"></i> 1234567890
+       </h7>
+          <ul class="contact-list">
+              <li><a href="mailto:email@example.com"><i class="fa-regular fa-envelope"></i>info@indiatour.com</a></li>
+              <li><a href="#" target="_blank"> <i class="fa-brands fa-twitter"></i> Twitter</a></li>
+              <li><a href="#"target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+              <li><a href="#" target="_blank" class=""><i class="fa-brands fa-facebook"></i>
+                Facebook</a></li>
+              <li><a href="#" target="_blank" class=""> <i class="fa-brands fa-instagram"></i> Instagram</a></li>
+          </ul>
+          <span class="text-muted">&copy; India tour 2022</span>
+        </div>
+      </div>
+  </footer> 
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  </body>
+  </html>
+
