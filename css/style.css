@@ -1,0 +1,45 @@
+h1{
+    /* background-color:blue ; */
+    font-size: medium;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+h2{
+    font-size: medium;
+    margin: 10px;
+    padding: 10px;
+}
+h5{
+    margin: 20px;
+    padding: 0%;
+    color: black;
+}
+h7{
+    color: white;
+    text-align: center;
+    justify-content: center;
+align-items: center;
+}
+h4{
+margin:20px ;
+padding: 4px;
+}
+
+li a{
+    color:white;
+    padding: 5px;
+    margin: 5px;
+}
+.content-wrap{
+    text-align: center;
+}
+/* ---to write over background image ------- */
+/* .education {
+    background-image: url(../Images/img12.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 300px;
+    text-align: center;
+  } */
+
